@@ -1,15 +1,15 @@
-# esto es un comentario
-archivo.ext
-carpeta
-/archivo_desde_raiz.ext
-# ignorar todos los archivos que terminen en .log
-*.log
-# excepto production.log
-!production.log
-# ignorar los archivos terminados en .txt dentro de la carpeta doc,
-# pero no en sus subcarpetas
-doc/*.txt
-# ignorar todos los archivos terminados en .txt dentro de la carpeta doc
-# y también en sus subcarpetas
-doc/**/*.txt
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# dependencies
+/node_modules
+# testing
+/coverage
+# production
+/build
+# misc
 .DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
